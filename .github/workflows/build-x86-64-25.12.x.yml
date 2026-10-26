@@ -41,7 +41,7 @@ on:
           - 'no'
       enable_pppoe:
         description: "是否配置PPPoE拨号信息?"
-        required: true
+        required: false
         default: 'no'
         type: choice
         options:
